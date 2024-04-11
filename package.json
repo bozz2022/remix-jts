@@ -1,16 +1,13 @@
 {
   "name": "remix-jts",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "type": "module",
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
     "preview": "vite preview",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@remix-run/dev": "^2.8.1",
     "autoprefixer": "^10.4.19",
